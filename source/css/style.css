@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@500&family=Quicksand&family=Titan+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background:
+    linear-gradient(
+      169.3deg,
+      rgba(205, 249, 232, 1) 15%,
+      rgba(205, 249, 232, 0) 46%
+    ),
+    radial-gradient(
+      123% 73% at 107% 96%,
+      rgba(255, 253, 177, 1) 20%,
+      rgba(254, 228, 191, 1) 60%,
+      rgba(240, 189, 208, 1) 75%,
+      rgba(255, 129, 38, 0) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(0, 204, 131, 1) 0%,
+      rgba(0, 204, 131, 1) 100%
+    );
+
+
+}
+
+/* RECURSOS  -------------------------------------------------------------------------- */
+.color1 {
+    background-color: rgb(108, 99, 255);
+}
+
+.color2 {
+    background-color: #7C3E66;
+}
+
+.color3 {
+    background-color: #A5BECC;
+}
+
+.titulos {
+    font-family: 'Titan One', cursive;
+}
+
+/* HEADER -------------------------------------------------------------------------- */
+.nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.1rem;
+}
+
+header a {
+    color: black;
+}
+
+#logo {
+    width: 4rem;
+    margin-right: 10px;
+}
+
+div h1 {
+    padding: 10px;
+    font-size: 4vw;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: #A5BECC;
+}
+
+/* INDEX -------------------------------------------------------------------------- */
+.texto {
+    font-size: 1.5rem;
+}
+/* ADOPCION -------------------------------------------------------------------------- */
+.categorias__adopcion img {
+    width: 5%;
+}
+.parrafo {
+    width: 80%;
+    text-align: justify;
+    
+}
+.mb-3 {
+    margin-top: 0.5rem;
+}
