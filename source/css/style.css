@@ -6,26 +6,23 @@
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
     background:
-    linear-gradient(
-      169.3deg,
-      rgba(205, 249, 232, 1) 15%,
-      rgba(205, 249, 232, 0) 46%
-    ),
-    radial-gradient(
-      123% 73% at 107% 96%,
-      rgba(255, 253, 177, 1) 20%,
-      rgba(254, 228, 191, 1) 60%,
-      rgba(240, 189, 208, 1) 75%,
-      rgba(255, 129, 38, 0) 100%
-    ),
-    linear-gradient(
-      0deg,
-      rgba(0, 204, 131, 1) 0%,
-      rgba(0, 204, 131, 1) 100%
-    );
-
-
+        linear-gradient(169.3deg,
+            rgba(205, 249, 232, 1) 15%,
+            rgba(205, 249, 232, 0) 46%),
+        radial-gradient(123% 73% at 107% 96%,
+            rgba(255, 253, 177, 1) 20%,
+            rgba(254, 228, 191, 1) 60%,
+            rgba(240, 189, 208, 1) 75%,
+            rgba(255, 129, 38, 0) 100%),
+        linear-gradient(0deg,
+            rgba(0, 204, 131, 1) 0%,
+            rgba(0, 204, 131, 1) 100%);
 }
 
 /* RECURSOS  -------------------------------------------------------------------------- */
@@ -43,6 +40,10 @@ body {
 
 .titulos {
     font-family: 'Titan One', cursive;
+}
+
+.texto {
+    font-size: 1.5rem;
 }
 
 /* HEADER -------------------------------------------------------------------------- */
@@ -63,7 +64,7 @@ header a {
 
 div h1 {
     padding: 10px;
-    font-size: 4vw;
+    font-size: 2.5rem;
     width: 100%;
 }
 
@@ -72,18 +73,55 @@ nav a:hover {
 }
 
 /* INDEX -------------------------------------------------------------------------- */
-.texto {
-    font-size: 1.5rem;
-}
+
 /* ADOPCION -------------------------------------------------------------------------- */
 .categorias__adopcion img {
     width: 5%;
 }
+
 .parrafo {
     width: 80%;
     text-align: justify;
-    
+
 }
+
 .mb-3 {
     margin-top: 0.5rem;
+}
+
+/* TIENDA -------------------------------------------------------------------------- */
+.carousel {
+    margin: 10px;
+}
+
+.carousel img {
+    border-radius: 8%;
+}
+
+div a img {
+    width: 100%;
+    border-radius: 8%;
+}
+
+.tienda .card {
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+.tienda .card img {
+    border-radius: 10% 10% 0px 0px;
+
+}
+
+/* DONA -------------------------------------------------------------------------- */
+.dona__img {
+    border-radius: 50%;
+    width: 60%;
+    margin: 10px;
+}
+
+/* FORM -------------------------------------------------------------------------- */
+form {
+    margin: 10px;
 }
