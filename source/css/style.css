@@ -4,13 +4,14 @@
     padding: 0px;
     margin: 0px;
 }
-
-body {
+html {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 }
-
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background:
         linear-gradient(169.3deg,
             rgba(205, 249, 232, 1) 15%,
@@ -73,6 +74,9 @@ nav a:hover {
 }
 
 /* INDEX -------------------------------------------------------------------------- */
+.container {
+    height: 100%;
+}
 
 /* ADOPCION -------------------------------------------------------------------------- */
 .categorias__adopcion img {
@@ -124,4 +128,9 @@ div a img {
 /* FORM -------------------------------------------------------------------------- */
 form {
     margin: 10px;
+}
+
+/* FOOTER -------------------------------------------------------------------------- */
+footer {
+    margin-top: auto;
 }

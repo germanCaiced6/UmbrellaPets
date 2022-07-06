@@ -10,7 +10,12 @@
     <script src="../bootstrap/js/jquery.slim.min.js"></script>
     <script src="../bootstrap/js/jquery.slim.min.js"></script>
     <link rel="stylesheet" href="../source/css/style.css">
-</head>
+    <link rel="stylesheet" href="../source/css/animate.css">
+    <link rel="shortcut icon" href="../source/img/icon.png">
+    <script src="../source/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 <body>
     <!-- APERTURA DEL HEADER  -->
@@ -18,11 +23,14 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
-                    <img src="../source/img/logo.png" id="logo" alt="logo umbrella pets">
-                    <h2> umbrella pets</h2>
+                    <img src="../source/img/logo.png" id="logo" alt="logo umbrella pets"
+                        class="WOW animate__animated animate__swing" data-wow-duration="3s" data-wow-delay="1s">
+                    <h2 class="WOW animate__animated animate__tada" data-wow-duration="1s" data-wow-delay="1s"> umbrella
+                        pets</h2>
                 </div>
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
-                    <nav class="nav">
+                    <nav class="nav WOW animate__animated animate__lightSpeedInRight" data-wow-duration="1s"
+                        data-wow-delay="1s">
                         <a class="nav-link" href="../index.html">Inicio</a>
                         <a class="nav-link" href="adopta.html">Adopta</a>
                         <a class="nav-link" href="tienda.html">Tienda</a>
@@ -36,7 +44,8 @@
 
 
     <section class="container color3">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center WOW animate__animated animate__rubberBand" data-wow-duration="1s"
+            data-wow-delay="1s">
             <h1 class="titulos text-center">Adopta c:</h1>
             <p class="parrafo texto">
                 El acto de adoptar es una gran compromiso y responsabilidad. Por eso es importante que estés listo y
@@ -46,8 +55,9 @@
 
         <!-- PERROS -->
         <div class="row  color2 justify-content-center">
-            <div class="categorias__adopcion d-flex justify-content-around">
-                <img src="../source/img/perro.png">
+            <div class="categorias__adopcion d-flex justify-content-around WOW animate__animated animate__pulse"
+                data-wow-duration="1s" data-wow-delay="1s"">
+                <img src=" ../source/img/perro.png">
                 <h2>Perros en adopcion</h2>
                 <img src="../source/img/perro.png">
             </div>
@@ -106,7 +116,7 @@
             <div class="col-12 col-md-6 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="../source/img/gato3.png" alt="Card image cap">
-                    <button type="button" class="btn btn-success">MANZANA</button>
+                    <button type="button" class="btn btn-success">PANA MIGUEL</button>
                 </div>
             </div>
             <div class="col-12 col-md-6 mb-3">
@@ -123,9 +133,11 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-between">
-                    <a class="footer-link" href="contacto.html"><img src="../source/img/logo.png" id="logo"
-                            alt="logo umbrella pets"></a>
-                    <p>Umbrella pets // contactate con nosotros </p>
+                    <a class="footer-link" href="pages/contacto.html"><img src="../source/img/logo.png" id="logo"
+                            alt="logo umbrella pets" class="WOW animate__animated animate__swing" data-wow-duration="3s"
+                            data-wow-delay="1s"></a>
+                    <p class="nav WOW animate__animated animate__lightSpeedInRight" data-wow-duration="1s"
+                        data-wow-delay="1s">Umbrella pets // contactate con nosotros </p>
                 </div>
             </div>
         </div>
