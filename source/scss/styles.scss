@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@500&family=Quicksand&family=Titan+One&display=swap');
+$color1: rgb(108, 99, 255);
+$color2: #7C3E66;
+$color3: #A5BECC;
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(169.3deg, rgba(205, 249, 232, 1) 15%, rgba(205, 249, 232, 0) 46%), radial-gradient(123% 73% at 107% 96%, rgba(255, 253, 177, 1) 20%, rgba(254, 228, 191, 1) 60%, rgba(240, 189, 208, 1) 75%, rgba(255, 129, 38, 0) 100%), linear-gradient(0deg, rgba(0, 204, 131, 1) 0%, rgba(0, 204, 131, 1) 100%);
+}
+
+// RECURSOS
+.color1 {
+    background-color: $color1;
+}
+
+.color2 {
+    background-color: $color2;
+}
+
+.color3 {
+    background-color: $color3;
+}
+
+.titulos {
+    font-family: 'Titan One', cursive;
+}
+
+.texto {
+    font-size: 1.5rem;
+}
+
+// INDEX
+.nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.1rem;
+}
+
+.btn-outline-info {
+    color: #000000;
+    border-color: #00000000;
+}
+
+.btn {
+    border-radius: 1.25rem;
+}
+
+header a {
+    color: black;
+}
+
+#logo {
+    width: 4rem;
+    margin-right: 10px;
+}
+
+div h1 {
+    padding: 10px;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.categorias__adopcion img {
+    width: 5%;
+}
+
+.parrafo {
+    width: 80%;
+    text-align: justify;
+}
+
+.mb-3 {
+    margin-top: 0.5rem;
+}
+
+.carousel {
+    margin: 10px;
+
+    img {
+        border-radius: 8%;
+    }
+}
+
+div a img {
+    width: 100%;
+    border-radius: 8%;
+}
+
+.tienda .card {
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+
+    img {
+        border-radius: 10% 10% 0px 0px;
+    }
+}
+
+.dona__img {
+    border-radius: 50%;
+    width: 60%;
+    margin: 10px;
+}
+
+form {
+    margin: 10px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#banner {
+    width: 100%;
+}
