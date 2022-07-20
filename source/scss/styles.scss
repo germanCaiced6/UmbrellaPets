@@ -1,12 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Kdam+Thmor+Pro&family=Montserrat:wght@500&family=Quicksand&family=Titan+One&family=Varela+Round&display=swap");
-$color1: rgb(108, 99, 255);
-$color2: #7c3e66;
-$color3: #a5becc;
+$color_principal: rgb(108, 99, 255);
+$color_secundario: #7c3e66;
+$color_black: black;
+$font-family: 'Varela Round', sans-serif;
+$font-size: 1.4rem;
+
+// botones
+$list: blue, purple, green;
+
+@each $var in $list {
+    .button-#{$var} {
+        background-color: $var;
+        color: $color_black;
+        border-radius: 10%;
+    }
+}
+// mixin de cajas
+@mixin caja($font-color, $list) {
+    color: $font-color;
+    background-color: $list;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+@each $list, $color in $list {
+    .caja-#{$list}{
+    @include caja(black, $list)
+}
+}
 
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: $font-family;
 }
 
 html {
@@ -29,15 +55,11 @@ body {
 
 // RECURSOS
 .color1 {
-    background-color: $color1;
+    background-color: $color_principal;
 }
 
 .color2 {
-    background-color: $color2;
-}
-
-.color3 {
-    background-color: $color3;
+    background-color: $color_secundario;
 }
 
 .titulos {
@@ -86,7 +108,7 @@ body {
 .nav-link {
     display: block;
     padding: 0.5rem 0.5rem;
-    font-size: 1.1rem;
+    font-size: $font-size - 0.3rem;
 }
 
 .btn-outline-info {
@@ -109,11 +131,10 @@ header a {
 
 div h1 {
     padding: 10px;
-    font-size: 2.5rem;
+    font-size: $font-size + 1.1rem;
     width: 100%;
 }
 
-// INDEX
 #banner {
     width: 100%;
 }
@@ -134,10 +155,9 @@ div h1 {
 .parrafo {
     width: 80%;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: $font-size;
 }
 
-// ADOPTA
 .categorias__adopcion img {
     width: 5%;
 }
