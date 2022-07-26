@@ -124,16 +124,15 @@ header a {
     color: black;
 }
 
-#logo {
+.logo {
     width: 4rem;
     margin-right: 10px;
 }
 
 div h1 {
-    padding: 10px;
-    font-size: $font-size + 1.1rem;
-    width: 100%;
+    font-size: $font-size + .8rem;
 }
+
 
 #banner {
     width: 100%;
@@ -153,7 +152,8 @@ div h1 {
 }
 
 .parrafo {
-    width: 80%;
+    margin: 20px;
+    justify-content: center;
     text-align: justify;
     font-size: $font-size;
 }
@@ -178,7 +178,9 @@ div a img {
     width: 100%;
     border-radius: 8%;
 }
-
+.card {
+    background-color: #28a745;
+}
 .tienda .card {
     margin: 10px 0px 10px 0px;
     background-color: rgba(255, 255, 255, 0);
