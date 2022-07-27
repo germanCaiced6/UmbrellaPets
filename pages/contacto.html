@@ -16,10 +16,11 @@
     <script>
         new WOW().init();
     </script>
+</head>
 
 <body>
-     <!-- APERTURA DEL HEADER  -->
-     <header class="color1 shadow">
+    <!-- Apertura del header -->
+    <header class="color1 shadow">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
@@ -56,30 +57,46 @@
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Email</label>
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresar Email">
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Numero</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresar numero">
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Numero</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresar numero">
+                </div>
+                <div>
+                    <p>Comentario</p>
+                    <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Ingresar comentario">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
                             Acepta que le enviemos informacion sobre nosotros
+                    </label>
+                </div>
+                <div class="text-center">
+                    <div class="form-check">
+                        <p>le interesan?</p>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            gatos
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
                             value="option1" checked>
                         <label class="form-check-label" for="exampleRadios1">
-                            Hombre
+                            perros
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
                             value="option1" checked>
                         <label class="form-check-label" for="exampleRadios1">
-                            Mujer
+                            Ambos
                         </label>
                     </div>
+                    <button type="button" class="btn btn-outline-dark">Enviar</button>
+                </div>
             </form>
         </div>
         <img src="../source/img/decoration.svg" id="img__contact" class="img-fluid justify-content-center WOW animate__animated animate__fadeInRight" alt="bienvenido">
@@ -90,7 +107,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-12 d-flex align-items-center justify-content-between">
-                    <a class="footer-link" href="pages/contacto.html"><img src="../source/img/logo.png"
+                    <a class="footer-link" href="contacto.html"><img src="../source/img/logo.png"
                             alt="logo umbrella pets" class="logo WOW animate__animated animate__swing"
                             data-wow-duration="3s" data-wow-delay="1s"></a>
                     <p class="nav WOW animate__animated animate__lightSpeedInRight" data-wow-duration="1s"
